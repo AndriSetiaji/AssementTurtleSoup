@@ -88,7 +88,72 @@ curl --location 'http://localhost:8080/conversations' \
 }'
 ```
 ![Screenshot 2024-08-09 140329](https://github.com/user-attachments/assets/8490aff7-87ea-44e4-9d6f-8075237693f4)
-
+```
+{
+    "conversations": [
+        {
+            "id": 59,
+            "sender": "llama2",
+            "receiver": "test - 3",
+            "value": "Great! Here is another one:\n\nWhy don't lobsters share? Because they're shellfish! 😜\n\nI hope these jokes bring a smile to your face. Is there anything else I can help you with or would you like me to keep telling jokes?",
+            "deleted": false,
+            "createdAt": "2024-08-09T07:02:26.666Z",
+            "createdBy": "create - llama2",
+            "updatedAt": "2024-08-09T07:02:26.670Z"
+        },
+        {
+            "id": 58,
+            "sender": "test - 3",
+            "receiver": "llama2",
+            "value": "yes please",
+            "deleted": false,
+            "createdAt": "2024-08-09T07:01:57.068Z",
+            "createdBy": "create - test - 3",
+            "updatedAt": "2024-08-09T07:01:57.070Z"
+        },
+        {
+            "id": 57,
+            "sender": "llama2",
+            "receiver": "test - 3",
+            "value": "Of course, I'd be happy to tell you a joke! Here is one:\n\nWhy don't scientists trust atoms? Because they make up everything! 😂\n\nI hope that made you smile! Do you have a favorite joke to share or would you like me to tell you another one?",
+            "deleted": false,
+            "createdAt": "2024-08-09T07:01:42.479Z",
+            "createdBy": "create - llama2",
+            "updatedAt": "2024-08-09T07:01:42.480Z"
+        },
+        {
+            "id": 56,
+            "sender": "test - 3",
+            "receiver": "llama2",
+            "value": "tell me a joke please",
+            "deleted": false,
+            "createdAt": "2024-08-09T07:01:10.394Z",
+            "createdBy": "create - test - 3",
+            "updatedAt": "2024-08-09T07:01:10.390Z"
+        },
+        {
+            "id": 55,
+            "sender": "llama2",
+            "receiver": "test - 3",
+            "value": "Hello! It's nice to meet you. Is there something I can help you with or would you like to chat?",
+            "deleted": false,
+            "createdAt": "2024-08-09T07:00:53.679Z",
+            "createdBy": "create - llama2",
+            "updatedAt": "2024-08-09T07:00:53.680Z"
+        },
+        {
+            "id": 54,
+            "sender": "test - 3",
+            "receiver": "llama2",
+            "value": "hello",
+            "deleted": false,
+            "createdAt": "2024-08-09T07:00:08.420Z",
+            "createdBy": "create - test - 3",
+            "updatedAt": "2024-08-09T07:00:08.420Z"
+        }
+    ]
+}
+```
 
 ### Note
 - sender -> user / model (differentiate text `from` which side user or model)
